@@ -5,49 +5,43 @@
           { "id":0,
             "type": "Energize",
             "name": "Brain Booster",
-            "url": false,
+            "url": "/images/default.jpg",
             "ingredients": "12/01/2021"
           },
           { "id":1,
             "type": "Energize",
             "name": "Blue Berry Dream",
-            "url": false,
+            "url": "/images/default.jpg",
             "ingredients": "07/15/2022"
           },
           { 
             "id":2,
             "type": "Energize",
-            "name": "Morning Matcha ",
-            "url": false,
+            "name": "Green Energizer ",
+            "url": "/images/default.jpg",
             "ingredients": "11/14/2021"
           },
       
-      {
-        "id": 3,
-        "type": "Vitamin Packed",
-        "name": "Develop a Reading Habit",
-        "url": true,
-        "ingredients": ""
-      },
+     
       {     
             "id":4,
             "type": "Vitamin Packed",
             "name": "Tropical Punch",
-            "url": false,
+            "url": "/images/default.jpg",
             "ingredients": ""
           },
           {  
             "id":5,
             "type": "Vitamin Packed",
             "name": "Tangy Papaya",
-            "url": false,
+            "url": "/images/default.jpg",
             "ingredients": ""
           },
           {
             "id":6,
             "type": "Vitamin Packed",
             "name": "Very Berry",
-            "url": false,
+            "url": "/images/default.jpg",
             "ingredients": ""
           }
         

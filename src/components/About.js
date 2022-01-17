@@ -1,7 +1,8 @@
-export const Navar = () => {
+export const About = () => {
     return (
         <div>
             
         </div>
     )
 }
+

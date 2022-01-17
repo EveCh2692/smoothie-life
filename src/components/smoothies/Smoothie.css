@@ -1,0 +1,9 @@
+.smoothies-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.smoothie-card{
+    border: solid;
+    width: 300px;
+    margin: auto;
+}
