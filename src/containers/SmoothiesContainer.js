@@ -5,6 +5,7 @@ import { SmoothiesFilter } from "../components/smoothies/SmoothiesFilter"
 
 export const SmoothiesContainer = () => {
     const [smoothies, setSmoothies] = useState([])
+    const [filteredSmoothies, setFilteredSmoothies] = useState(smoothies)
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -18,10 +19,15 @@ export const SmoothiesContainer = () => {
         fetchData()
            
     }, [])
+
+    const handleSearch = (searchValue) => {
+        console.log(searchValue)
+   }
     return (
         <div>
+            <SmoothiesFilter handleSearch ={handleSearch}/>
             <SmoothiesList smoothies = {smoothies}/>
-            <SmoothiesFilter/>
+            
         </div>
     )
 }
