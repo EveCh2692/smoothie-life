@@ -21,7 +21,8 @@ export const SmoothiesContainer = () => {
     }, [])
 
     const handleSearch = (searchValue) => {
-        console.log(searchValue)
+        const filteredSmoothies = smoothies.filter(smoothie => smoothie.name.toLowerCase().startsWith 
+            (searchValue.toLowerCase()))
    }
     return (
         <div>
