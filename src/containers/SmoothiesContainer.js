@@ -4,6 +4,7 @@ import { SmoothiesFilter } from "../components/smoothies/SmoothiesFilter"
 
 
 export const SmoothiesContainer = () => {
+    
     const [smoothies, setSmoothies] = useState([])
     const [filteredSmoothies, setFilteredSmoothies] = useState(smoothies)
     useEffect(() => {
