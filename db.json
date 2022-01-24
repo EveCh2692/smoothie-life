@@ -4,7 +4,7 @@
       "id": 0,
       "type": "Energize",
       "name": "Brain Booster",
-      "image": "/images/default.jpg",
+      "image": "/images/coffeeSmoothie.jpg",
       "ingredients": [
         "1 cup of coffee",
         "1 teaspoon of mushroom powder",
@@ -16,8 +16,8 @@
     {
       "id": 1,
       "type": "Energize",
-      "name": "Blue Berry Dream",
-      "image": "/images/default.jpg",
+      "name": "Blueberry Dream",
+      "image": "/images/blueberryDreamToo.jpg",
       "ingredients": [
         "1/2 cup of bluberies",
         "1 cup of your choice of milk",
@@ -29,7 +29,7 @@
       "id": 2,
       "type": "Energize",
       "name": "Green Matcha Energizer ",
-      "image": "/images/default.jpg",
+      "image": "/images/greenMatcha.jpg",
       "ingredients": [
         "1 tablespoon of match powder",
         "1 cup of milk",
@@ -42,7 +42,7 @@
       "id": 4,
       "type": "Vitamin Packed",
       "name": "Tropical Punch",
-      "image": "/images/default.jpg",
+      "image": "/images/tropicalPunch.jpg",
       "ingredients": [
         "1 cup of frozen mixed tropical fruit",
         "1/4 cup papaya",
@@ -55,7 +55,7 @@
       "id": 5,
       "type": "Vitamin Packed",
       "name": "Tangy Papaya",
-      "image": "/images/default.jpg",
+      "image": "/images/tangyPapaya.jpg",
       "ingredients": [
         "1 cup of papaya",
         "1 banana",
@@ -68,7 +68,7 @@
       "id": 6,
       "type": "Vitamin Packed",
       "name": "Very Berry",
-      "image": "/images/default.jpg",
+      "image": "/images/veryBerry.jpg",
       "ingredients": [
         "1 cup frozen blueberries",
         "1/2 cup frozen mixed berries",
@@ -78,7 +78,5 @@
         "2 tablespoons of honey"
       ]
     }
-    
- 
   ]
 }

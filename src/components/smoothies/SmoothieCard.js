@@ -12,7 +12,7 @@ export const SmoothieCard = ({smoothie}) => {
     src={window.location.origin+smoothie.image}
     onClick={() => setClickFlip(bool => !bool)}
     />
-    {!clickFlip? <h4> {smoothie.type}</h4> :
+    {!clickFlip? <h4> {smoothie.type}</h4>:
     <h5>{smoothie.ingredients}</h5>}
     
             
