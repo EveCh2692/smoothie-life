@@ -1,8 +1,7 @@
 ## Smoothie Life
 
 ## Description
-
-
+Smoothie-Life app is made to inspire other to get healthy by getting their daily does of fruits and veggies via a smoothie. In my app I provided 6 of my smoothie recipes which I drink offten to give me that extra boost throughtout the day. I believe that what you put in your body affects the quality of your life. This app is made to help you get started with your journey to a healthier you with a smoothie a day.[https://medium.com/@evelynchavez.2222/my-first-react-project-65db6e556493] (Check out my blog to get more details about some of it's features) For my app I used React to create my application. It has many differnt components with each contributing with a function to make my app work as I desired. 
 ## Installation
 1. Fork and clone the repo.
 2. Cd into the project and run npm install

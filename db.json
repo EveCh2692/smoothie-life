@@ -77,6 +77,13 @@
         "1 cup of water",
         "2 tablespoons of honey"
       ]
+    },
+    {
+      "type": "Meal replacement",
+      "name": "Vanilla",
+      "image": "/images/default.jpg",
+      "ingredients": "Vanilla, milk, banana, protien powder ",
+      "id": 7
     }
   ]
 }
