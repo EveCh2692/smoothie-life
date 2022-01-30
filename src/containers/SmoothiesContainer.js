@@ -7,6 +7,9 @@ export const SmoothiesContainer = () => {
     
     const [smoothies, setSmoothies] = useState([])
     const [filteredSmoothies, setFilteredSmoothies] = useState(smoothies)
+    const [sortBy, setSortBy] = useState("Alphabetically")
+
+
     useEffect(() => {
         const fetchData = async () => {
             try {
@@ -28,11 +31,21 @@ export const SmoothiesContainer = () => {
 
         setFilteredSmoothies(filteredSmoothies)
     }
+
+
+    const sortSmoothie = [...smoothies].sort((smoothie1, smoothie2) => {
+        if (smoothie1.name < smoothie2.name) {
+            return -1
+        } if (smoothie1.name > smoothie2.name) {
+            return 1
+        } return 0
+    })
+
+
     return (
         <div>
-            <SmoothiesFilter handleSearch={handleSearch} />
+            <SmoothiesFilter sortBy={sortBy} onChangeSort={setSortBy} handleSearch={handleSearch} />
             <SmoothiesList smoothies={filteredSmoothies} />
-
         </div>
     )
 }

@@ -12,6 +12,7 @@
         "1 teaspoon of maca",
         "1 banana"
       ]
+      
     },
     {
       "id": 1,
@@ -24,6 +25,7 @@
         "1 cup of coffee",
         "1 tsp of stevia extract(may adjust to liking)"
       ]
+     
     },
     {
       "id": 2,
@@ -80,9 +82,9 @@
     },
     {
       "type": "Meal replacement",
-      "name": "Vanilla",
-      "image": "/images/default.jpg",
-      "ingredients": "Vanilla, milk, banana, protien powder ",
+      "name": "Strawberryberry",
+      "image": "/images/veryBerry.jpg",
+      "ingredients": "Strawberry, protien, milk",
       "id": 7
     }
   ]
