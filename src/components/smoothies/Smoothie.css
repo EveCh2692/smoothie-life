@@ -1,9 +1,36 @@
 .smoothies-container{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .smoothie-card{
-    border: solid;
+    border: 1px solid #eee;
     width: 300px;
+    height: 475px;
+    padding: 10px;
     margin: auto;
+    overflow: hidden;
+    box-shadow: 2px 8px 20px #ddd;
+    margin: 10px;
+    transition: 0.5s linear;
+}
+
+.smoothie-card h5{
+    text-align: center;
+    padding: 10px;
+}
+
+.smoothie-card:hover{
+    box-shadow: none;
+}
+
+.smoothie-card img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.smoothie-card h3 {
+    color: orangered;
 }

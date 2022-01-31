@@ -1,30 +1,25 @@
+import {useState} from  'react';
 
-export const SmoothiesFilter = ({ handleSearch, onChangeSort, sortBy }) => {
 
-    const handleSortChange = (e) => {
-        onChangeSort(e.target.value)
-    }
+export const SmoothiesFilter = ({ handleSearch, handleSort}) => {
+    const [checked, setChecked] = useState(false)
+
+    const handleChange = (e) => {
+        setChecked(bool => !bool)
+      handleSort(!checked)
+    };
+    
 
     const handleFilterChange = (e) => {
         handleSearch(e.target.value)
     }
 
     return (
-        <div>
-            <label>
-                <strong>Sort By:</strong>
-                <input type="radio" value="Alphabetically" name="sort" checked={sortBy === "Alphabetically"} onChange={handleSortChange} />
-                Alphabetically
-            </label>
-            <label>
-                <input type="radio" value="Unorder" name="sort" checked={sortBy !== "Alphabetically"} onChange={handleSortChange} />
-                Clear Sort
-                </label>
-            <input type="text" placeholder="Type a smoothie name..."
-                onChange={handleFilterChange} />
-
+        <div>  
+            <input style={{border: "solid 2px", height: "2em", width: "25em", margin: "10px"}}type="text" placeholder="Type a smoothie name..."
+                onChange={handleFilterChange} /> <br/>
+            Sort <input type="checkbox" checked={checked ? "checked" : ""} onChange={handleChange} />
         </div>
     )
 }
-
 
